@@ -1,0 +1,23 @@
+print("the game has loaded")
+print("what is 1 + 2")
+roomSelection = input("Enter answer")
+if roomSelection =="3":
+    print("Correct nathens a smarty pants.  What is 9 - 3")
+    roomSelection = input(" enter answer")
+    if roomSelection == "3":
+        print(" You Died  Program is closing")
+    elif roomSelection == "4":
+        print("Entered room 4")
+    else:
+        print("Nathans stupid. Program is closing")
+elif roomSelection == "5":
+    print("wrong get better at math nathans stupid")
+    roomSelection = input("Enter 5 or 6")
+    if roomSelection == "5":
+        print("Nathan's room 5. Program is closing")
+    elif roomSelection == "6":
+        print("Entered room 6")
+    else:
+        print("Nathans stupid. Program is closing")
+else:
+    print("nathens super Gay. Program is closing")
